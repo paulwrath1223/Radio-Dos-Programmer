@@ -1,4 +1,4 @@
-# Radio-Dos-Programmer
+# Radio Dos Programmer
 This is just a wrapper for using DOSBox to program Motorola Radios that need only have software for DOS. 
 It's a total hack, but if you want to program a GP300, you can buy a DOS machine just for that, or you can use an emulator with specific settings. This program just packages all the steps for emulation.
 
