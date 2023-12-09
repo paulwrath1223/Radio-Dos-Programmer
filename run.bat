@@ -4,7 +4,7 @@ cd DosBox
 echo -------------------
 echo available com ports:
 echo -------------------
-wmic path Win32_SerialPort
+mode
 echo -------------------
 
 set /p com_port= "Enter the COM port of the Radio (e.g. COM3): "
@@ -28,5 +28,5 @@ echo serial2=directserial realport:%com_port%>> temp_config.conf
 echo serial3=directserial realport:%com_port%>> temp_config.conf
 echo serial4=directserial realport:%com_port%>> temp_config.conf
 
-dosbox RSS\%radio_model%\%radio_model%.exe -exit -conf temp_config.conf
+dosbox RSS\%radio_model%\%radio_model%.exe -exit -conf temp_config.conf -noconsole
 
